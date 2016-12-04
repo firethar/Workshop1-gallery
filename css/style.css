@@ -1,0 +1,94 @@
+body {
+	margin: 0 auto; padding: 0;
+	background-color: #cccccc; 
+	color: #000000;
+	font-family: 'Righteous', cursive;
+	height: 100vh;
+	position: relative;
+}
+main, header, footer {
+	margin: 0 auto;
+	padding: 0; 
+	width: 90vw;
+	position: relative;
+}
+
+nav, footer {
+	background-color: #222222;
+}
+header h1 {
+	display: block;
+	margin: 0; padding: 10px 0 0 50px;
+	width: 150px; height: 50px;	
+	background-image: url('../images/apple-touch-icon.png');
+	background-repeat: no-repeat;
+	background-size: 50px; 
+	text-align: left;
+	color: #999999;
+	float: left;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul{
+	position: relative;
+
+	display: block;
+	text-align: right;
+}
+nav ul li {
+	padding: 15px;
+	display: inline-block;
+}
+nav a {
+	text-decoration: none;
+	color: #999999;
+}
+nav a:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+
+
+
+
+
+main h1 {
+	text-align: center;
+}
+
+.gallery ul{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.gallery li{
+	display: inline-block;
+}
+
+.gallery .thumbnails a img {
+	border: 2px solid #ffffff;
+}
+.gallery .thumbnails a:hover img {
+	border: 2px solid #222222;
+}
+.gallery p#featured {	
+	text-align: center;
+}
+.gallery p#featured img {
+	width: 100%;
+}
+
+
+
+
+footer p {
+	padding: 15px;
+	position: relative;
+	bottom: 0; right: 0;
+	text-align: right;
+	color: #999999;
+}
